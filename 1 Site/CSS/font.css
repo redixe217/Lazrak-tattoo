@@ -1,0 +1,72 @@
+@font-face {
+  font-family: InstrumentSerif;
+  src: url("/font/InstrumentSerif-Regular.ttf");
+}
+
+@font-face {
+  font-family: Roboto-Bold;
+  src: url("/font/Roboto-Bold.ttf");
+}
+
+@font-face {
+  font-family: Roboto-Regular;
+  src: url("/font/Roboto-Regular.ttf");
+}
+
+h1,
+h2 {
+  font-family: "InstrumentSerif";
+}
+
+h3,
+h4 {
+  font-family: "Roboto-Bold";
+}
+
+p {
+  font-family: "Roboto";
+}
+
+/* Full size web font size */
+@media (min-width: 860px) {
+  h1,
+  h2 {
+    font-family: "InstrumentSerif";
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+  h2 {
+    font-size: 1.25em;
+  }
+
+  h3 {
+    font-size: 2.5em;
+  }
+
+  p {
+    font-size: 1.5em;
+  }
+}
+
+/* Mobil font size */
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.5em;
+  }
+
+  h2 {
+    font-size: 1.25em;
+  }
+
+  h3 {
+    font-size: 2.5em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+}
