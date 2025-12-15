@@ -4,26 +4,91 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+    <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/font.css" />
     <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/heder.css" />
+    <link rel="stylesheet" href="css/footer.css" />
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <script src="js/script.js" defer></script>
+    <script src="js/menu.js" defer></script>
     <title>Lazrak Tattoo</title>
   </head>
   <body>
-    <div class="hero">
-      <img class="heroimg" src="img/hero-2.webp" />
-      <div class="cta-wrapper">
-        <a href="#portfolio" class="hero-cta"> Se Portfolio </a>
-        <a href="#portfolio">
-          <span class="arrow"></span>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="index.html">
+          <img src="img/logo.webp" alt="LAZRAK TATTOO" />
         </a>
+        <button class="burger menu_mobile" type="button" aria-label="Menu">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </button>
+        <nav class="nav" id="mainNav">
+          <a href="index.html">Portfolio</a>
+          <a href="om.html">Om</a>
+          <a href="kontakt.html">Kontakt</a>
+        </nav>
       </div>
-    </div>
-    <section id="portfolio"></section>
-    <div id="lightbox" class="lightbox">
-      <span class="close">&times;</span>
-      <img class="lightbox-img" src="" />
-    </div>
+    </header>
+    <main>
+      <div class="hero">
+        <img class="heroimg" src="img/hero-2.webp" />
+        <div class="cta-wrapper">
+          <a href="#portfolio" class="hero-cta"> Se Portfolio </a>
+          <a href="#portfolio">
+            <span class="arrow"></span>
+          </a>
+        </div>
+      </div>
+      <section id="portfolio"></section>
+      <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-img" src="" />
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div class="footer-left">
+          <a class="social" href="" aria-label="Facebook"
+            ><span class="icon fb"></span>
+          </a>
+          <a class="social" href="" aria-label="Instagram"
+            ><span class="icon IG"></span
+          ></a>
+          <a class="social" href="" aria-label="Tik Tok"
+            ><span class="icon tiktok"></span
+          ></a>
+          <!-- <a class="social" href="Images/facebook.webp" aria-label="Facebook"
+            ><img src="Images/facebook-w.webp" alt="facebook icons"
+          /></a> -->
+          <!-- <a class="social" href="" aria-label="Instagram"
+            ><img
+              src="Images/instagram-w.webp"
+              class="icons"
+              alt="Instagram icons"
+          /></a> -->
+
+          <!-- <a class="social" href="" aria-label="Tik Tok"
+            ><img
+              src="Images/tik-tok-w.webp"
+              alt="Tik Tok icons"
+              class="icons_tiktok"
+          /></a> -->
+        </div>
+
+        <div class="footer-center">
+          All rights reserved &nbsp;©&nbsp; Lazrak Tattoo 2025
+        </div>
+
+        <div class="footer-right">
+          <div class="footer-title">Get in touch</div>
+          <a class="footer-mail" href="mailto:lazrak.tattoo@gmail.com"
+            >lazrak.tattoo@gmail.com</a
+          >
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
