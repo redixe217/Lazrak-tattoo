@@ -19,7 +19,8 @@ h2 {
 }
 
 h3,
-h4 {
+h4,
+.hero-cta {
   font-family: "Roboto-Bold";
 }
 
