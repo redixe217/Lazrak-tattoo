@@ -23,7 +23,8 @@ h4 {
   font-family: "Roboto-Bold";
 }
 
-p {
+p,
+label {
   font-family: "Roboto";
 }
 
