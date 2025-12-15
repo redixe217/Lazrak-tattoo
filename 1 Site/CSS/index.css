@@ -107,4 +107,7 @@ body {
     font-size: 40px;
     cursor: pointer;
   }
+  .close:hover {
+    color: #b85014;
+  }
 }
