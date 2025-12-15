@@ -1,0 +1,108 @@
+.site-footer {
+  background: #2f2f2f;
+  padding: 26px 28px;
+}
+
+.footer-inner {
+  max-width: 1600px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.footer-left,
+.footer-center,
+.footer-right {
+  flex: 1;
+}
+
+.footer-left {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+
+.social img {
+  height: 32px;
+  width: 32px;
+}
+
+.icon {
+  height: 32px;
+  width: 32px;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.icon.fb {
+  background-image: url("../Images/facebook-w.webp");
+}
+
+.icon.IG {
+  background-image: url("../Images/instagram-w.webp");
+}
+
+.icon.tiktok {
+  background-image: url("../Images/tik-tok-w.webp");
+}
+
+.icon.fb:hover {
+  content: url("../Images/facebook.webp");
+}
+
+.icon.IG:hover {
+  content: url("../Images/instagram.webp");
+}
+
+.icon.tiktok:hover {
+  content: url("../Images/tik-tok.webp");
+}
+
+.footer-center {
+  margin: 0 auto;
+  text-align: center;
+  color: #b35b22;
+  font-size: 14px;
+  letter-spacing: 0.3px;
+}
+
+.footer-right {
+  text-align: right;
+  color: #fff;
+}
+
+.footer-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.footer-mail {
+  color: #fff;
+  text-decoration: none;
+  font-size: 22px;
+  opacity: 0.95;
+}
+
+.footer-mail:hover {
+  text-decoration: underline;
+  color: #b35b22;
+}
+
+/* Mobil */
+@media (max-width: 820px) {
+  .footer-inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .footer-center {
+    text-align: left;
+  }
+  .footer-right {
+    text-align: left;
+  }
+}

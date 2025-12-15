@@ -1,16 +1,16 @@
 @font-face {
   font-family: InstrumentSerif;
-  src: url("/font/InstrumentSerif-Regular.ttf");
+  src: url("../font/InstrumentSerif-Regular.ttf");
 }
 
 @font-face {
   font-family: Roboto-Bold;
-  src: url("/font/Roboto-Bold.ttf");
+  src: url("../font/Roboto-Bold.ttf");
 }
 
 @font-face {
   font-family: Roboto-Regular;
-  src: url("/font/Roboto-Regular.ttf");
+  src: url("../font/Roboto-Regular.ttf");
 }
 
 h1,
@@ -25,6 +25,12 @@ h4 {
 
 p {
   font-family: "Roboto";
+}
+
+nav,
+a {
+  font-family: "InstrumentSerif";
+  font-size: 1.25em;
 }
 
 /* Full size web font size */
