@@ -3,8 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
     <link rel="stylesheet" href="css/font.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="js/script.js" defer></script>
+    <title>Lazrak Tattoo</title>
   </head>
-  <body></body>
+  <body>
+    <div class="hero">
+      <img class="heroimg" src="img/hero-2.webp" />
+      <div class="cta-wrapper">
+        <a href="#portfolio" class="hero-cta"> Se Portfolio </a>
+        <a href="#portfolio">
+          <span class="arrow"></span>
+        </a>
+      </div>
+    </div>
+    <section id="portfolio"></section>
+    <div id="lightbox" class="lightbox">
+      <span class="close">&times;</span>
+      <img class="lightbox-img" src="" />
+    </div>
+  </body>
 </html>
