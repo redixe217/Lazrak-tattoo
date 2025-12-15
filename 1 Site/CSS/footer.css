@@ -30,6 +30,38 @@
   width: 32px;
 }
 
+.icon {
+  height: 32px;
+  width: 32px;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.icon.fb {
+  background-image: url("../Images/facebook-w.webp");
+}
+
+.icon.IG {
+  background-image: url("../Images/instagram-w.webp");
+}
+
+.icon.tiktok {
+  background-image: url("../Images/tik-tok-w.webp");
+}
+
+.icon.fb:hover {
+  content: url("../Images/facebook.webp");
+}
+
+.icon.IG:hover {
+  content: url("../Images/instagram.webp");
+}
+
+.icon.tiktok:hover {
+  content: url("../Images/tik-tok.webp");
+}
+
 .footer-center {
   margin: 0 auto;
   text-align: center;
