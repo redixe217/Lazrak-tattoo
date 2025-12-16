@@ -1,3 +1,7 @@
+header {
+  z-index: 1000;
+}
+
 .site-header {
   background: #000;
 }
@@ -24,6 +28,7 @@
   display: flex;
   align-items: center;
   gap: 110px;
+  z-index: 1000;
 }
 
 .nav a {
