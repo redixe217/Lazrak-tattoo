@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", init);
 const SUPABASE_URL = "https://ipyzlrvbejpvxmjbpmbf.supabase.co";
 const SUPABASE_ANON_KEY = "sb_publishable_najTqwKPWCfSxu-E93zOGQ_xGV6r_kH";
 
-const BUCKET = "portfolio"; // hvis den ikke hedder portfolio, ret her
+const BUCKET = "portfolio";
 
 let supabaseClient;
 
@@ -32,8 +32,6 @@ function getPortfolioImages() {
         return;
       }
 
-      // "Et efter et" som de typisk ligger: vi tager dem i navne-rækkefølge.
-      // Hvis du vil styre rækkefølgen, så giv filerne et prefix (01-, 02-, 03- ...)
       data.sort((a, b) => a.name.localeCompare(b.name));
 
       showPortfolioImages(data);
@@ -42,10 +40,10 @@ function getPortfolioImages() {
 
 function showPortfolioImages(files) {
   const portfolio = document.getElementById("portfolio");
-  portfolio.innerHTML = ""; // ryd gammelt indhold
+  portfolio.innerHTML = ""; 
 
   files.forEach((file) => {
-    // spring "mapper" og tomme entries over
+
     if (!file.name || file.name.endsWith("/")) return;
 
     const img = document.createElement("img");

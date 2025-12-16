@@ -11,6 +11,7 @@
   position: absolute;
   bottom: 30px;
   left: 50%;
+  z-index: 2;
 }
 .hero-cta {
   position: absolute;
@@ -21,8 +22,8 @@
   border: 4px solid white;
   color: white;
   padding: 14px 32px;
-  font-size: 24px;
-  font-weight: 700;
+  /* font-size: 24px; */
+  /* font-weight: 700; */
   text-transform: uppercase;
   letter-spacing: 2px;
   cursor: pointer;
@@ -31,6 +32,14 @@
 .hero-cta:hover {
   color: #b85014;
   border: 4px solid #b85014;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.25);
+  pointer-events: none;
 }
 
 .arrow {
@@ -62,7 +71,7 @@
 }
 @media (min-width: 600px) {
   #portfolio {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     justify-content: center;
     gap: 10px;
     margin: 0 auto;
