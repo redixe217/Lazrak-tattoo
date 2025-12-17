@@ -61,6 +61,23 @@ textarea {
   min-height: 180px;
 }
 
+.contact-text {
+  margin-bottom: 10px;
+}
+
+.contact-section {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.IG_link {
+  color: #fff;
+}
+
+.IG_link:hover {
+  color: #b85014;
+}
+
 .button_send {
   grid-column: 1 / -1;
   /* margin: 40px auto 0; */
@@ -77,4 +94,45 @@ textarea {
   background-color: #000000;
   color: #ff5900;
   border-color: #ff5900;
+}
+
+/* Mobile*/
+@media (max-width: 700px) {
+  .contact-section {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+    box-sizing: border-box;
+  }
+
+  form {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  form div:nth-child(3),
+  form div:nth-child(4) {
+    grid-column: auto;
+  }
+
+  .field.full {
+    grid-column: auto;
+  }
+
+  input,
+  textarea {
+    padding: 18px 14px 14px;
+  }
+
+  label {
+    left: 14px;
+    letter-spacing: 2px;
+  }
+
+  .button_send {
+    width: 100%;
+    justify-self: stretch;
+    padding: 14px 0;
+  }
 }

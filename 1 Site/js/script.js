@@ -25,14 +25,14 @@ function init() {
 function getPortfolioImages() {
   supabaseClient.storage
     .from(BUCKET)
-    .list("", { limit: 200 })
+    .list("", { limit: 27 })
     .then(({ data, error }) => {
       if (error) {
         console.error("Supabase list() error:", error);
         return;
       }
 
-      data.sort((a, b) => a.name.localeCompare(b.name));
+      // data.sort((a, b) => a.name.localeCompare(b.name));
 
       showPortfolioImages(data);
     });
@@ -48,7 +48,7 @@ function showPortfolioImages(files) {
 
     const img = document.createElement("img");
     img.src = `${SUPABASE_URL}/storage/v1/object/public/${BUCKET}/${file.name}`;
-    img.alt = file.name;
+    img.alt = "Billede af tatovering";
     img.classList.add("portfolio-img");
 
     portfolio.appendChild(img);
