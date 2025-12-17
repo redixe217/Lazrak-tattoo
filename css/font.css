@@ -1,16 +1,16 @@
 @font-face {
   font-family: InstrumentSerif;
-  src: url("../font/InstrumentSerif-Regular.ttf");
+  src: url("../fonts/InstrumentSerif-Regular.ttf");
 }
 
 @font-face {
   font-family: Roboto-Bold;
-  src: url("../font/Roboto-Bold.ttf");
+  src: url("../fonts/Roboto-Bold.ttf");
 }
 
 @font-face {
   font-family: Roboto-Regular;
-  src: url("../font/Roboto-Regular.ttf");
+  src: url("../fonts/Roboto-Regular.ttf");
 }
 
 h1,
@@ -25,13 +25,13 @@ h4 {
 
 p,
 label {
-  font-family: "Roboto";
+  font-family: "Roboto-Regular";
 }
 
 nav,
 a {
   font-family: "InstrumentSerif";
-  font-size: 1.25em;
+  font-size: 32px;
 }
 
 /* Full size web font size */
@@ -42,19 +42,19 @@ a {
   }
 
   h1 {
-    font-size: 3em;
+    font-size: 32px;
   }
 
   h2 {
-    font-size: 1.25em;
+    font-size: 24px;
   }
 
   h3 {
-    font-size: 2.5em;
+    font-size: 20px;
   }
 
   p {
-    font-size: 1.5em;
+    font-size: 16px;
   }
 }
 
@@ -62,18 +62,18 @@ a {
 
 @media (max-width: 768px) {
   h1 {
-    font-size: 1.5em;
+    font-size: 32px;
   }
 
   h2 {
-    font-size: 1.25em;
+    font-size: 24px;
   }
 
   h3 {
-    font-size: 2.5em;
+    font-size: 20px;
   }
 
   p {
-    font-size: 1em;
+    font-size: 16px;
   }
 }
