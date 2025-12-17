@@ -1,5 +1,5 @@
 h1 {
-  font-size: 64px;
+  font-size: 32px;
   font-weight: 400;
   margin-bottom: 24px;
 }
@@ -8,6 +8,7 @@ p {
   max-width: 700px;
   margin: 0 auto 60px;
   line-height: 1.6;
+  font-size: 16px;
 }
 
 form {
@@ -64,17 +65,24 @@ textarea {
 button {
   grid-column: 1 / -1;
   margin: 40px auto 0;
-  padding: 14px 40px;
+  padding: 14px 50px;
   background: transparent;
-  border: 2px solid #fff;
+  border: 5px solid #fff;
   color: #fff;
-  font-size: 18px;
+  font-size: 32px;
   cursor: pointer;
   transition: all 0.2s ease;
+  font-family: "InstrumentSerif";
 }
 
 button:hover {
   background-color: #000000;
   color: #ff5900;
   border-color: #ff5900;
+}
+@media (min-width: 600px) {
+  form {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
 }
