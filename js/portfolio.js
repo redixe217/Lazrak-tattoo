@@ -25,7 +25,7 @@ function init() {
 function getPortfolioImages() {
   supabaseClient.storage
     .from(BUCKET)
-    .list("", { limit: 27 })
+    .list("", { limit: 28 })
     .then(({ data, error }) => {
       if (error) {
         console.error("Supabase list() error:", error);
