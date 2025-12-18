@@ -2,12 +2,6 @@ h1 {
   margin-bottom: 40px;
 }
 
-/*p {
-  max-width: 700px;
-  margin: 0 auto 60px;
-  line-height: 1.6;
-} */
-
 .IG_link {
   font-size: 16px;
 }
@@ -38,7 +32,6 @@ textarea {
   background-color: #2f2f2f;
   border: 2px solid #fff;
   color: #fff;
-  /* font-size: 16px; */
   outline: none;
 }
 

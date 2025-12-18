@@ -61,13 +61,6 @@
   justify-items: center;
   max-width: 100%;
 }
-/* #portfolio img {
-  width: 400px;
-  height: 100%;
-  object-fit: cover;
-  margin: 10px;
-} */
-
 #portfolio img {
   width: 100%;
   height: auto;
@@ -96,13 +89,6 @@
 }
 
 @media (min-width: 600px) {
-  #portfolio {
-    /* grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
-    gap: 10px;
-    margin: 0 auto;
-    padding: 20px; */
-  }
   #portfolio img {
     margin-top: 50px;
     margin-right: 10px;
