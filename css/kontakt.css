@@ -1,16 +1,18 @@
-/* h1 {
-  font-size: 64px;
-  font-weight: 400;
-  margin-bottom: 24px;
+h1 {
+  margin-bottom: 40px;
 }
 
-p {
+/*p {
   max-width: 700px;
   margin: 0 auto 60px;
   line-height: 1.6;
 } */
 
+.IG_link {
+  font-size: 16px;
+}
 form {
+  margin-top: 50px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 24px;
@@ -80,14 +82,15 @@ textarea {
 
 .button_send {
   grid-column: 1 / -1;
-  /* margin: 40px auto 0; */
-  padding: 14px 40px;
+  margin: 40px auto 0;
+  padding: 12px 50px;
   background: transparent;
-  border: 2px solid #fff;
+  border: 5px solid #fff;
   color: #fff;
-  /* font-size: 18px; */
+  font-size: 24px;
   cursor: pointer;
   transition: all 0.2s ease;
+  font-family: "InstrumentSerif";
 }
 
 .button_send:hover {
@@ -131,8 +134,7 @@ textarea {
   }
 
   .button_send {
-    width: 100%;
-    justify-self: stretch;
-    padding: 14px 0;
+    margin: 40px auto 0;
+    padding: 12px 50px;
   }
 }

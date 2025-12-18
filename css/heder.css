@@ -37,6 +37,7 @@ header {
   letter-spacing: 0.5px;
   line-height: 1;
   opacity: 0.95;
+  font-size: 32px;
 }
 
 .nav a:hover {
