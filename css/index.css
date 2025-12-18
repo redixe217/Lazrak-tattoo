@@ -136,36 +136,7 @@
     padding: 20px;
     box-sizing: border-box;
   }
-  /* .lightbox {
-    display: none;
-    position: fixed;
-    z-index: 1000;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-    justify-content: center;
-    align-items: center;
-  } */
-
-  /* .lightbox-img {
-    max-width: 90%;
-    max-height: 90%;
-  } */
   .portfolio-img {
     cursor: pointer;
   }
-
-  /* .close {
-    position: absolute;
-    top: 20px;
-    right: 30px;
-    color: white;
-    font-size: 40px;
-    cursor: pointer;
-  }
-  .close:hover {
-    color: #b85014;
-  } */
 }
